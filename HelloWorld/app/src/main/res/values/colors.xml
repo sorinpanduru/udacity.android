@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#8D6E63</color>
+    <color name="color_primary_dark">#795548</color>
+    <color name="color_primary_accent">#FF7043</color>
+    <color name="button_bg_color">#4E342E</color>
+    <color name="primary_text_selected">#c62828</color>
+    <color name="primary_text">#ff8a80</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="app_bg_color">#ffffff</color>
+    <color name="bkg_card">#BCAAA4</color>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Weiss Beer Garden</string>
+    <string name="captionAddress">Address: </string>
+    <string name="address">Bd. Uverturii 132, sector 6, Bucharest, Romania </string>
+    <string name="captionSchedule">Schedule: </string>
+    <string name="schedule">Mon-Sun 10AM - 2AM </string>
+    <string name="captionContact">Contact: </string>
+    <string name="contact">0733 582 852 \nrezervari@weissbeer.ro
+    </string>
+    <string name="textBtnContact">Contact</string>
+    <string name="textBtnBook">Book</string>
+    <string-array name="image_ids">
+        <item>@drawable/weiss1</item>
+        <item>@drawable/weiss2</item>
+        <item>@drawable/weiss3</item>
+    </string-array>
+</resources>
