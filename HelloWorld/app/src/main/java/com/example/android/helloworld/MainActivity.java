@@ -5,6 +5,7 @@ import android.content.res.TypedArray;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -42,6 +43,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        final FloatingActionButton favFab = (FloatingActionButton) findViewById(R.id.fabFavorite);
+        favFab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                favFab.setActivated(!favFab.isActivated());
+            }
+        });
     }
 
     // Prepare some dummy data for gridview
@@ -52,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
             Bitmap bitmap = BitmapFactory.decodeResource(getResources(), imgs.getResourceId(i, -1));
             imageItems.add(new ImageItem(bitmap, "Image#" + i));
         }
+        imgs.recycle();
         return imageItems;
     }
 }
